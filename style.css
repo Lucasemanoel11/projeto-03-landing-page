@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  background-color: #12151c;
+  color: #f4f1ea;
+  line-height: 1.6;
+}
+
+.topo {
+  background-color: rgba(18, 21, 28, 0.92);
+  border-bottom: 1px solid rgba(244, 241, 234, 0.12);
+  padding: 18px 40px;
+}
+
+.barra-navegacao {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logotipo {
+  color: #e6b86a;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.item-link {
+  color: #f4f1ea;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.item-link:hover {
+  color: #e6b86a;
+}
+
+.secao-destaque {
+  min-height: 80vh;
+  padding: 80px 40px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(28, 34, 48, 0.96), rgba(58, 36, 28, 0.88));
+}
+
+.caixa-destaque {
+  max-width: 720px;
+}
+
+.titulo-destaque {
+  font-size: 46px;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.subtitulo-destaque {
+  font-size: 18px;
+  color: rgba(244, 241, 234, 0.85);
+  margin-bottom: 28px;
+}
+
+.botao-saiba-mais {
+  display: inline-block;
+  padding: 13px 26px;
+  background-color: #d49b4b;
+  color: #14171f;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.botao-saiba-mais:hover {
+  background-color: #f0be73;
+  box-shadow: 0 0 18px rgba(240, 190, 115, 0.55);
+  transform: translateY(-2px);
+}
+
+.secao-apoio {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 64px 40px;
+}
+
+.titulo-secao {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #e6b86a;
+}
+
+.texto-apoio {
+  color: rgba(244, 241, 234, 0.8);
+}
